@@ -1,0 +1,120 @@
+#!/system/bin/sh
+
+clear
+sleep 0.5
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
+sleep 0.5
+echo "✘PUBG MOBILE V.0.16.5✘"
+sleep 0.5
+echo "✘CREATOR : @XHIDROLIC✘"
+sleep 0.5
+echo "✘DEV MTP OFFICIAL✘"
+sleep 0.5
+echo "✘COPYRIGHT 2020 ©✘"
+sleep 0.5
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
+sleep 0.5
+echo "✇BYPASS PUBG MOBILE✇"
+sleep 0.5
+echo "✇LOADING BYPASS...✇"
+sleep 0.5
+echo "✇BYPASS ACTIVATED✇"
+sleep 0.5
+echo "✇BOOST RAM PROCESSING...✇"
+free | awk '/Mem/{print "(CLEAN PROCESSING) : "$4/1024" MB";}'
+sync;
+echo "3" > /proc/sys/vm/drop_caches;
+echo "0" > /proc/sys/vm/drop_caches;
+sleep 1
+free | awk '/Mem/{print "(CLEAN DONE) : "$4/1024" MB";}'
+echo "✇BOOST RAM DONE✇"
+sleep 0.5
+
+mv /data/data/com.rekoo.pubgm/lib/libgcloud.so /storage/emulated/0/BahanCheat/libbackup
+mv /data/data/com.rekoo.pubgm/lib/libUE4.so /storage/emulated/0/BahanCheat/libbackup
+mv /data/data/com.rekoo.pubgm/lib/libzip.so /storage/emulated/0/BahanCheat/libbackup
+mv /data/data/com.rekoo.pubgm/lib/libzlib.so /storage/emulated/0/BahanCheat/libbackup
+mv /data/data/com.rekoo.pubgm/lib/libabase.so /storage/emulated/0/BahanCheat/libbackup
+mv /data/data/com.rekoo.pubgm/lib/libBugly.so /storage/emulated/0/BahanCheat/libbackup
+vmstat
+uptime
+mv /storage/emulated/0/BahanCheat/libmod/libgcloud.so /data/data/com.rekoo.pubgm/lib
+mv /storage/emulated/0/BahanCheat/libmod/libUE4.so /data/data/com.rekoo.pubgm/lib
+mv /storage/emulated/0/BahanCheat/libmod/libzip.so /data/data/com.rekoo.pubgm/lib
+mv /storage/emulated/0/BahanCheat/libmod/libzlib.so /data/data/com.rekoo.pubgm/lib
+mv /storage/emulated/0/BahanCheat/libmod/libabase.so /data/data/com.rekoo.pubgm/lib
+mv /storage/emulated/0/BahanCheat/libmod/libBugly.so /data/data/com.rekoo.pubgm/lib
+sleep 1
+chmod -R 755 /data/data/com.rekoo.pubgm/lib/libabase.so
+chmod -R 755 /data/data/com.rekoo.pubgm/lib/libBugly.so
+chmod -R 755 /data/data/com.rekoo.pubgm/lib/libgcloud.so
+chmod -R 755 /data/data/com.rekoo.pubgm/lib/libUE4.so
+chmod -R 600 /data/data/com.rekoo.pubgm/lib/libzip.so
+chmod -R 600 /data/data/com.rekoo.pubgm/lib/libzlib.so
+
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs__db_issues
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs__db_key_values
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs__db_properties
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs__db_sessions
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs__db_support_key_values
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs_db_helpshift_users
+chmod 600 /data/data/com.rekoo.pubgm/databases/__hs_log_store
+chmod 600 /data/data/com.rekoo.pubgm/databases/bugly_db_
+chmod 600 /data/data/com.rekoo.pubgm/databases/config.db
+chmod 600 /data/data/com.rekoo.pubgm/databases/google_app_measurement_local.db
+chmod 600 /data/data/com.rekoo.pubgm/databases/iMSDK.db
+chmod 600 /data/data/com.rekoo.pubgm/databases/tdm.db
+chmod 600 /data/data/com.rekoo.pubgm/shared_prefs
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_137_0.16.5.11560_20200108102536_2026323150_cures.ifs.res
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.5.11560.pak
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_path_0.16.5.11860.pak
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_137_0.16.5.11560_20200108102536_2026323150_cures.ifs.res
+chmod 600 /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.cures
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
+sleep 2
+echo "✇STARTING BYPASS✇"
+while true; do
+sleep 3
+rm -rf /storage/emulated/0/tencent
+rm -rf /storage/emulated/0/Tencent
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/cache
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/ca-bundle.pem 	  
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/tbslog  	  
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/cacheFile.txt	
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords
+rm -rf /storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata?n??
+
+rm -rf /data/data/com.rekoo.pubgm/app_appcache
+rm -rf /data/data/com.rekoo.pubgm/cache
+rm -rf /data/data/com.rekoo.pubgm/code_cache
+rm -rf /data/data/com.rekoo.pubgm/files/ss_tmp
+rm -rf /data/data/com.rekoo.pubgm/files/tss_tmp
+rm -rf /data/data/com.rekoo.pubgm/files/AppEventsLogger.persistedevents
+rm -rf /data/data/com.rekoo.pubgm/files/tpnlcache.data
+rm -rf /data/data/com.rekoo.pubgm/files/tss_app_915c.dat
+rm -rf /data/data/com.rekoo.pubgm/files/tss_cs_stat2.dat
+rm -rf /data/data/com.rekoo.pubgm/files/tss.i.m.dat
+rm -rf /data/data/com.rekoo.pubgm/files/TAPM_CM_AUDIT
+rm -rf /data/data/com.rekoo.pubgm/files/com.tencent.gcloud.gvoice
+rm -rf /data/data/com.rekoo.pubgm/files/hawk_data_init
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
+echo "✘TARGET IN PUBG MOBILE V.0.16.5✘"
+echo "✘BYPASS ACTIVATED✘"
+echo "✘CLEAR LOGS DONE✘"
+echo "✘CREATOR : @XHIDROLIC✘"
+echo "✘COPYRIGHT 2020 ©✘"
+echo "▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓"
+done

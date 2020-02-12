@@ -1,0 +1,175 @@
+#!/bin/bash
+##Coded : MTP • KanGPukuL
+###MTP - RPM
+
+clear
+ulang="y"
+while [ $ulang = "y" ];
+do
+   sleep 0.5
+          busybox echo -e "\e[00;41m       MTP OFFICIAL        \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mBypass PUBG MOBILE V.0.16.5 \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mBypass Version 1.0 \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mCopyright 2020 © \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[00;41m   Powered By @XHIDROLIC   \e[00;37;40m"
+   sleep 2
+busybox echo -e ""
+busybox echo -e "\e[00;41m        MTP LOGIN          \e[00;37;40m"
+echo -n "\033[0;32mUSERNAME :"
+read username;
+
+   if [ $username = "MTP" ];
+then
+ echo -n "PASSWORD :"
+read pwd;
+
+   if [ $pwd = "MTP2020" ];
+then
+ echo -n ""
+   sleep 2
+   busybox echo -e "\e[00;41m        LOGIN SUCCES        \e[00;37;40m"
+   sleep 3
+clear
+   sleep 2
+          busybox echo -e "\e[00;41m       MTP OFFICIAL        \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mBypass PUBG MOBILE V.0.16.5 \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mBypass Version 1.0 \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;36mCopyright 2020 © \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[00;41m-----------MENU------------\e[00;37;40m"
+          busybox echo -e "\e[01;33m[1] BYPASS PUBG GLOBAL \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;33m[2] BYPASS PUBG KOREA \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;33m[3] BYPASS PUBG TAIWAN \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[01;33m[4] BYPASS PUBG VIETNAM \e[00;37;40m"
+          busybox echo -n ""
+          busybox echo -e "\e[00;41m   Powered By @XHIDROLIC   \e[00;37;40m"
+   sleep 1
+ echo "\033[0;36m"
+read -p "MASUKKAN PILIHAN ANDA :" pilih;
+if [ $pilih = "1" ];
+   then
+          busybox echo -n ""
+          busybox echo -e "\e[01;36m[1] BYPASS ON  [2] BYPASS OFF \e[00;37;40m"
+ echo "\033[0;36m"
+read -p "MASUKKAN PILIHAN ANDA :" gl;
+if [ $gl = "1" ];
+   then
+ clear
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSGL"
+exit
+sleep 2
+elif [ $gl = "2" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSOFFGL"
+else
+         busybox echo -e "\e[01;36mERROR BOSSQU\e[00;37;40m"
+         busybox echo -n ""
+         busybox echo -e "\e[01;36mSilakan Masukkan Input Dengan Benar\e[00;37;40m"
+sleep 2
+    clear
+  $ulang
+fi
+elif [ $pilih = "2" ];
+   then
+          busybox echo -n ""
+          busybox echo -e "\e[01;36m[1] BYPASS ON  [2] BYPASS OFF \e[00;37;40m"
+ echo "\033[0;36m"
+read -p "MASUKKAN PILIHAN ANDA :" kr;
+if [ $kr = "1" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSKR"
+elif [ $kr = "2" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSOFFKR"
+else
+         busybox echo -e "\e[01;36mERROR BOSSQU\e[00;37;40m"
+         busybox echo -n ""
+         busybox echo -e "\e[01;36mSilakan Masukkan Input Dengan Benar\e[00;37;40m"
+sleep 2
+    clear
+  $ulang
+fi
+exit
+elif [ $pilih = "3" ];
+   then
+          busybox echo -n ""
+          busybox echo -e "\e[01;36m[1] BYPASS ON  [2] BYPASS OFF \e[00;37;40m"
+ echo "\033[0;36m"
+read -p "MASUKKAN PILIHAN ANDA :" tw;
+if [ $tw = "1" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSTW"
+elif [ $tw = "2" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSOFFTW"
+else
+         busybox echo -e "\e[01;36mERROR BOSSQU\e[00;37;40m"
+         busybox echo -n ""
+         busybox echo -e "\e[01;36mSilakan Masukkan Input Dengan Benar\e[00;37;40m"
+sleep 2
+    clear
+  $ulang
+fi
+elif [ $pilih = "4" ];
+   then
+          busybox echo -n ""
+          busybox echo -e "\e[01;36m[1] BYPASS ON  [2] BYPASS OFF \e[00;37;40m"
+ echo "\033[0;36m"
+read -p "MASUKKAN PILIHAN ANDA :" vn;
+if [ $vn = "1" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSVN"
+elif [ $vn = "2" ];
+   then
+sleep 1
+clear
+sleep 1
+su -c "/data/data/com.termux/files/home/bypassmtp/BYPASSOFFVN"
+else
+         busybox echo -e "\e[01;36mERROR BOSSQU\e[00;37;40m"
+         busybox echo -n ""
+         busybox echo -e "\e[01;36mSilakan Masukkan Input Dengan Benar\e[00;37;40m"
+sleep 2
+    clear
+  $ulang
+fi
+else
+         busybox echo -e "\e[01;36mERROR BOSSQU\e[00;37;40m"
+         busybox echo -n ""
+         busybox echo -e "\e[01;36mSilakan Masukkan Input Dengan Benar\e[00;37;40m"
+   sleep 2
+    clear
+$ulang
+fi
+fi
+fi
+done
+
